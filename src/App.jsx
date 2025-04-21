@@ -5,8 +5,8 @@ import Banner from "./components/Banner";
 import MovieList from "./components/MovieList";
 import "./index.css";
 import MovieSearch from "./components/MovieSearch";
-import { MovieProvider } from "./context/MovieProvider.jsx";
-import Footer from "./components/footer.jsx";
+import { MovieProvider } from "./context/MovieProvider";
+import Footer from "./components/Footer";
 
 function App() {
   const [movie, setMovie] = useState([]);
